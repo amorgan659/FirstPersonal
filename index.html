@@ -3,51 +3,124 @@
 <link rel="stylesheet" href="styles.css">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Source+Code+Pro&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Spice&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<head>
-		<title> My Personal Site </title>
+		<title>Alexandra Morgan Webpage </title>
 	</head>
-	<header>
-	<nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-			<li><a href="#">Contact</a></li>
-			<li><a href="#">About</a></li>
-        </ul>
-    </nav> 
-	</header>
 	<body>	
+		<ul class="menu">
+    		<li><a class="menuItem" href="#welcome-section">Home</a></li>
+    		<li><a class="menuItem" href="#about-title">About</a></li>
+    		<li><a class="menuItem" href="#contact-section">Contact</a></li>
+  		</ul>
+  		<button class="hamburger">
+    		<!-- material icons https://material.io/resources/icons/ -->
+    		<i class="menuIcon material-icons">menu</i>
+    		<i class="closeIcon material-icons">close</i>
+ 		 </button>
+		
 		<div class="title">
-		<h2>Hello! My name is</h2>
-		<h1>Alexandra Morgan</h1>
+		<h1 id = "welcome-section">Welcome!</h1>
 		<div class="curved-div">
-		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-    <path fill="#FFFFFF" fill-opacity="1" d="M0,160L60,165.3C120,171,
-    240,181,360,176C480,171,600,149,720,122.7C840,96,960,64,1080,80C1200,
-    96,1320,160,1380,192L1440,224L1440,320L1380,320C1320,320,1200,320,1080,
-    320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,
-    320L0,320Z"></path>
-</svg>
-
-
-			
-			
-			<p class="parent">
-			I am in my fourth year of college, 
-			pursuing a bachelor's degree in software development.
-			I have experience in front-end web development, object-oriented 
-			languages such as C++, Java, Javascript, and C#.
-		
-			In my free time, I enjoy spending time outside, 
-			listening to music, and traveling!
-		
-			Thanks for checking me out!
-			</p>
-			
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+   				<path fill="#FFFFFF" fill-opacity="1" d="M0,160L60,165.3C120,171,
+    			240,181,360,176C480,171,600,149,720,122.7C840,96,960,64,1080,80C1200,
+    			96,1320,160,1380,192L1440,224L1440,320L1380,320C1320,320,1200,320,1080,
+    			320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,
+    			320L0,320Z"></path>
+			</svg>
+
+		<p class="parent">
+			I’m Alexandra Morgan, a soon-to-be grad this May with a Bachelor’s in Computer Information Systems, specializing in Programming. <br> <br>
+			
+			I’m passionate about both front-end and back-end development, with a growing interest in cybersecurity and the business side of tech.  <br> <br>
+			
+			In my free time, I enjoy listening to music, checking out new food spots, and planning my next travel adventure!<br> <br>
+			
+			Thanks for checking me out!
+		</p>
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
 			<path fill="#FFFFFF" fill-opacity="1" d="M0,160L60,165.3C120,171,
 			240,181,360,176C480,171,600,149,720,122.7C840,96,960,64,1080,80C1200,
 			96,1320,160,1380,192L1440,224L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,
 			840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
 		</div>
+		
+		
+		<!-- ABOUT SECTION-->
+		
+		
+		<div class="about-parent">
+			<h2 id="about-title">About Me </h2>
+
+			<section class="hero">
+    		<img src="https://i.ibb.co/CSM0gkj/final2.jpg" class="headshot" alt="final2" border="0"></a>
+    		<p class = "about-card">Software Developer | Cybersecurity Enthusiast | Problem Solver</p>
+			
+			</section>
+			
+            <h2 id="projects">Projects</h2>
+           	 	<ul class="projects-list">
+    				<li class="project-item">
+        			<h3>Personal Website</h3>
+        			<p>Created a personal portfolio webpage using HTML, CSS, and JavaScript for a fun and interactive interface.</p>
+        			<a href="#">View Project</a>
+    				</li>
+    			
+    				<li class="project-item">
+        			<h3>Tic Tac Toe</h3>
+        			<p>Play against yourself or the computer in this simple, yet classic Tic Tac Toe game 		built in C++!</p>
+        			<a href="#">View Project</a>
+    				</li>
+    
+    				<li class="project-item">
+       		 		<h3>Project 3</h3>
+        			<p>Short description of the project goes here.</p>
+        			<a href="#">View Project</a>
+    				</li>
+				</ul>
+     		</div>
+     		
+     		<!-- CONNECT WITH ME SECTION -->
+    		<section class="hero">
+      			<div class="social-links">
+        			<p id="connect">Connect with me:</p>
+        			<a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" class="linkedin">
+          			<img src="https://img.icons8.com/?size=100&id=8808&format=png&color=000000" alt="LinkedIn"/>
+        			</a>
+        			<a href="https://github.com/your-github-profile" target="_blank" class="github">
+          			<img src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000" alt="Github"/>
+        			</a>
+      			</div>
+    		</section>
+     	
+     		<!-- CONTACT SECTION -->
+     		
+     		<div id="contact-section">
+ 				<h2>Contact Me</h2>
+  				<p>If you have any questions, feel free to reach out!</p>
+  				
+  				<form id="contact-form" action="your-server-endpoint" method="POST">
+    				<div class="form-group">
+      					<label for="name">Name</label>
+      					<input type="text" id="name" name="name" required />
+   					</div>
+    
+    				<div class="form-group">
+      					<label for="email">Email</label>
+      					<input type="email" id="email" name="email" required />
+    				</div>
+    				
+    				<div class="form-group">
+      					<label for="message">Message</label>
+      					<textarea id="message" name="message" rows="4" required></textarea>
+    				</div>
+    				
+    				<button type="submit" class="submit-btn">Send Message</button>
+  				</form>
+			</div>
+		<script src="home.js"></script>
 	</body>
 </html>
