@@ -161,7 +161,6 @@ h1 {
 	padding-left: 30px;
 	padding-right: 30px;
 	text-align: center;
-	min-height: 100vh;
 }
 
 #about-title {
@@ -363,14 +362,9 @@ li.project-item:hover {
 }
 
 @media (max-width: 768px) {
-  .connect-with-me {
-    position: relative;
-    top: 0;
-  }
-
-  .welcome, .about-me {
-    font-size: 5.5em;
-    line-height: 1.5;
+h1 {
+	font-size: 12em;
+	text-shadow: 7px 5px 6px black;
   }
 }
 
