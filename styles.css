@@ -362,3 +362,15 @@ li.project-item:hover {
   background-color: #FF1493;
 }
 
+@media (max-width: 768px) {
+  .connect-with-me {
+    position: relative;
+    top: 0;
+  }
+
+  .welcome, .about-me {
+    font-size: 5.5em;
+    line-height: 1.5;
+  }
+}
+
